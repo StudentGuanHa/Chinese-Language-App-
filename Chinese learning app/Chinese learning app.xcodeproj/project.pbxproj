@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD377E932669E6F6000A0993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD377E922669E6F6000A0993 /* AppDelegate.swift */; };
+		FD377E952669E6F6000A0993 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD377E942669E6F6000A0993 /* SceneDelegate.swift */; };
+		FD377E972669E6F6000A0993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD377E962669E6F6000A0993 /* ViewController.swift */; };
+		FD377E9A2669E6F6000A0993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD377E982669E6F6000A0993 /* Main.storyboard */; };
+		FD377E9C2669E6F8000A0993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD377E9B2669E6F8000A0993 /* Assets.xcassets */; };
+		FD377E9F2669E6F8000A0993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD377E9D2669E6F8000A0993 /* LaunchScreen.storyboard */; };
+		FD377EAA2669E6F8000A0993 /* Chinese_learning_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD377EA92669E6F8000A0993 /* Chinese_learning_appTests.swift */; };
+		FD377EB52669E6F8000A0993 /* Chinese_learning_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD377EB42669E6F8000A0993 /* Chinese_learning_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD377EA62669E6F8000A0993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD377E872669E6F5000A0993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD377E8E2669E6F6000A0993;
+			remoteInfo = "Chinese learning app";
+		};
+		FD377EB12669E6F8000A0993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD377E872669E6F5000A0993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD377E8E2669E6F6000A0993;
+			remoteInfo = "Chinese learning app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD377E8F2669E6F6000A0993 /* Chinese learning app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chinese learning app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD377E922669E6F6000A0993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD377E942669E6F6000A0993 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD377E962669E6F6000A0993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD377E992669E6F6000A0993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD377E9B2669E6F8000A0993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD377E9E2669E6F8000A0993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD377EA02669E6F8000A0993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD377EA52669E6F8000A0993 /* Chinese learning appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chinese learning appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD377EA92669E6F8000A0993 /* Chinese_learning_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinese_learning_appTests.swift; sourceTree = "<group>"; };
+		FD377EAB2669E6F8000A0993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD377EB02669E6F8000A0993 /* Chinese learning appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chinese learning appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD377EB42669E6F8000A0993 /* Chinese_learning_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinese_learning_appUITests.swift; sourceTree = "<group>"; };
+		FD377EB62669E6F8000A0993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD377E8C2669E6F6000A0993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD377EA22669E6F8000A0993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD377EAD2669E6F8000A0993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD377E862669E6F5000A0993 = {
+			isa = PBXGroup;
+			children = (
+				FD377E912669E6F6000A0993 /* Chinese learning app */,
+				FD377EA82669E6F8000A0993 /* Chinese learning appTests */,
+				FD377EB32669E6F8000A0993 /* Chinese learning appUITests */,
+				FD377E902669E6F6000A0993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD377E902669E6F6000A0993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD377E8F2669E6F6000A0993 /* Chinese learning app.app */,
+				FD377EA52669E6F8000A0993 /* Chinese learning appTests.xctest */,
+				FD377EB02669E6F8000A0993 /* Chinese learning appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD377E912669E6F6000A0993 /* Chinese learning app */ = {
+			isa = PBXGroup;
+			children = (
+				FD377E922669E6F6000A0993 /* AppDelegate.swift */,
+				FD377E942669E6F6000A0993 /* SceneDelegate.swift */,
+				FD377E962669E6F6000A0993 /* ViewController.swift */,
+				FD377E982669E6F6000A0993 /* Main.storyboard */,
+				FD377E9B2669E6F8000A0993 /* Assets.xcassets */,
+				FD377E9D2669E6F8000A0993 /* LaunchScreen.storyboard */,
+				FD377EA02669E6F8000A0993 /* Info.plist */,
+			);
+			path = "Chinese learning app";
+			sourceTree = "<group>";
+		};
+		FD377EA82669E6F8000A0993 /* Chinese learning appTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD377EA92669E6F8000A0993 /* Chinese_learning_appTests.swift */,
+				FD377EAB2669E6F8000A0993 /* Info.plist */,
+			);
+			path = "Chinese learning appTests";
+			sourceTree = "<group>";
+		};
+		FD377EB32669E6F8000A0993 /* Chinese learning appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD377EB42669E6F8000A0993 /* Chinese_learning_appUITests.swift */,
+				FD377EB62669E6F8000A0993 /* Info.plist */,
+			);
+			path = "Chinese learning appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD377E8E2669E6F6000A0993 /* Chinese learning app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD377EB92669E6F8000A0993 /* Build configuration list for PBXNativeTarget "Chinese learning app" */;
+			buildPhases = (
+				FD377E8B2669E6F6000A0993 /* Sources */,
+				FD377E8C2669E6F6000A0993 /* Frameworks */,
+				FD377E8D2669E6F6000A0993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chinese learning app";
+			productName = "Chinese learning app";
+			productReference = FD377E8F2669E6F6000A0993 /* Chinese learning app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD377EA42669E6F8000A0993 /* Chinese learning appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD377EBC2669E6F8000A0993 /* Build configuration list for PBXNativeTarget "Chinese learning appTests" */;
+			buildPhases = (
+				FD377EA12669E6F8000A0993 /* Sources */,
+				FD377EA22669E6F8000A0993 /* Frameworks */,
+				FD377EA32669E6F8000A0993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD377EA72669E6F8000A0993 /* PBXTargetDependency */,
+			);
+			name = "Chinese learning appTests";
+			productName = "Chinese learning appTests";
+			productReference = FD377EA52669E6F8000A0993 /* Chinese learning appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD377EAF2669E6F8000A0993 /* Chinese learning appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD377EBF2669E6F8000A0993 /* Build configuration list for PBXNativeTarget "Chinese learning appUITests" */;
+			buildPhases = (
+				FD377EAC2669E6F8000A0993 /* Sources */,
+				FD377EAD2669E6F8000A0993 /* Frameworks */,
+				FD377EAE2669E6F8000A0993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD377EB22669E6F8000A0993 /* PBXTargetDependency */,
+			);
+			name = "Chinese learning appUITests";
+			productName = "Chinese learning appUITests";
+			productReference = FD377EB02669E6F8000A0993 /* Chinese learning appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD377E872669E6F5000A0993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FD377E8E2669E6F6000A0993 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FD377EA42669E6F8000A0993 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FD377E8E2669E6F6000A0993;
+					};
+					FD377EAF2669E6F8000A0993 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FD377E8E2669E6F6000A0993;
+					};
+				};
+			};
+			buildConfigurationList = FD377E8A2669E6F5000A0993 /* Build configuration list for PBXProject "Chinese learning app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD377E862669E6F5000A0993;
+			productRefGroup = FD377E902669E6F6000A0993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD377E8E2669E6F6000A0993 /* Chinese learning app */,
+				FD377EA42669E6F8000A0993 /* Chinese learning appTests */,
+				FD377EAF2669E6F8000A0993 /* Chinese learning appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD377E8D2669E6F6000A0993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD377E9F2669E6F8000A0993 /* LaunchScreen.storyboard in Resources */,
+				FD377E9C2669E6F8000A0993 /* Assets.xcassets in Resources */,
+				FD377E9A2669E6F6000A0993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD377EA32669E6F8000A0993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD377EAE2669E6F8000A0993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD377E8B2669E6F6000A0993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD377E972669E6F6000A0993 /* ViewController.swift in Sources */,
+				FD377E932669E6F6000A0993 /* AppDelegate.swift in Sources */,
+				FD377E952669E6F6000A0993 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD377EA12669E6F8000A0993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD377EAA2669E6F8000A0993 /* Chinese_learning_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD377EAC2669E6F8000A0993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD377EB52669E6F8000A0993 /* Chinese_learning_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD377EA72669E6F8000A0993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD377E8E2669E6F6000A0993 /* Chinese learning app */;
+			targetProxy = FD377EA62669E6F8000A0993 /* PBXContainerItemProxy */;
+		};
+		FD377EB22669E6F8000A0993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD377E8E2669E6F6000A0993 /* Chinese learning app */;
+			targetProxy = FD377EB12669E6F8000A0993 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD377E982669E6F6000A0993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD377E992669E6F6000A0993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD377E9D2669E6F8000A0993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD377E9E2669E6F8000A0993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD377EB72669E6F8000A0993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD377EB82669E6F8000A0993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD377EBA2669E6F8000A0993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chinese learning app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HarryGuan.Chinese-learning-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD377EBB2669E6F8000A0993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chinese learning app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HarryGuan.Chinese-learning-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD377EBD2669E6F8000A0993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chinese learning appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HarryGuan.Chinese-learning-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chinese learning app.app/Chinese learning app";
+			};
+			name = Debug;
+		};
+		FD377EBE2669E6F8000A0993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chinese learning appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HarryGuan.Chinese-learning-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chinese learning app.app/Chinese learning app";
+			};
+			name = Release;
+		};
+		FD377EC02669E6F8000A0993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chinese learning appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HarryGuan.Chinese-learning-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chinese learning app";
+			};
+			name = Debug;
+		};
+		FD377EC12669E6F8000A0993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chinese learning appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HarryGuan.Chinese-learning-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chinese learning app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD377E8A2669E6F5000A0993 /* Build configuration list for PBXProject "Chinese learning app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD377EB72669E6F8000A0993 /* Debug */,
+				FD377EB82669E6F8000A0993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD377EB92669E6F8000A0993 /* Build configuration list for PBXNativeTarget "Chinese learning app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD377EBA2669E6F8000A0993 /* Debug */,
+				FD377EBB2669E6F8000A0993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD377EBC2669E6F8000A0993 /* Build configuration list for PBXNativeTarget "Chinese learning appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD377EBD2669E6F8000A0993 /* Debug */,
+				FD377EBE2669E6F8000A0993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD377EBF2669E6F8000A0993 /* Build configuration list for PBXNativeTarget "Chinese learning appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD377EC02669E6F8000A0993 /* Debug */,
+				FD377EC12669E6F8000A0993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD377E872669E6F5000A0993 /* Project object */;
+}
